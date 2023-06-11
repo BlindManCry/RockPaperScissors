@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Rock Paper Scissors</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="lets-play">
+      <h1>ჯეირანი</h1>
+      <div class="lets-play-images">
+        <img class="image-rock-1" src="images/rock.png" alt="hand-rock" />
+        <img class="image-rock-2" src="images/rock.png" alt="hand-rock" />
+      </div>
+      <div class="game-point">თამაში არის 3-მდე</div>
+      <div class="button">
+        <button class="lets-play-button">დაწყება</button>
+      </div>
+    </div>
+
+    <div class="game">
+      <div class="score">
+        <div class="player-score">
+          <p>მოთამაშე</p>
+          <p class="player-start-score">0</p>
+        </div>
+        <div class="computer-score">
+          <p>კომპიუტერი</p>
+          <p class="computer-start-score">0</p>
+        </div>
+      </div>
+      <div class="change-image">
+        <img class="change-image-1" src="images/rock.png" alt="hand-rock" />
+        <img class="change-image-2" src="images/rock.png" alt="hand-rock" />
+      </div>
+      <div class="choose-hand-p">აირჩიე:</div>
+      <div class="choose-item">
+        <img class="choose-image-rock" src="images/rock.png" alt="hand-rock" />
+        <img
+          class="choose-image-paper"
+          src="images/paper.png"
+          alt="hand-paper"
+        />
+        <img
+          class="choose-image-scissors"
+          src="images/scissors.png"
+          alt="hand-scissors"
+        />
+      </div>
+    </div>
+
+    <div id="timer">ჯარიმა: 10</div>
+
+    <div class="game-end">
+      <p class="result">გილოცავ, შენ მოიგე თამაში</p>
+      <p class="end-point">
+        <span class="player-end-point">9</span> -
+        <span class="computer-end-point">8</span>
+      </p>
+      <div class="play-again-button">
+        <button class="play-again">ახლიდან თამაში</button>
+      </div>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
